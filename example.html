@@ -1,0 +1,146 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Example form</title>
+	</head>
+	<body>
+		<form action="foam_submitted.html" method="_blank">
+			    <fieldset>
+			    	<legend>registration form</legend>
+
+				<label>first name: </label>
+				<input type="text" name="first name" placeholder="enter your first name"><br><br>
+				middle name: <input type="text" name=" middle name" placeholder="enter your middle name..."><br><br>
+
+
+				<label>last name: </label>
+				<input type="text" name="last name" placeholder="enter your last name.." value=""><br><br>
+
+
+				<label>user name: </label>
+				<input type="text" name="user name" required><br><br>
+				common name: 
+				<input type="text" name="common name" value="" placeholder="this is a common name"><br><br>
+
+
+				<label>password</label>
+				<input type="password" name="password"><br><br>
+				address: 
+				<textarea></textarea>
+				<br><br>
+				<label>country: </label>
+				<select>
+					<optgroup label="ASIA">
+						<option>please select a country</option>
+					<option value="india">india</option>
+										<option value="china">china</option>
+															<option value="usa">usa</option>
+															</optgroup>
+					<optgroup label="europe">
+					<option value="england">england</option>
+										<option value="africa">africa</option>
+															<option value=" north usa"> north usa</option>
+															</optgroup>										
+
+
+				</select><br><br>
+				state: 
+				<select>
+					<optgroup label="">
+						<option>please select a state</option>
+						<option value="assam">assam</option>
+						<option value="ajmer">ajmer</option>
+						<option value="bihar">bihar</option>
+					</optgroup>
+				</select>
+				<br><br>
+
+				<label>gender</label>
+				<input type="radio" name="gender" value="male">male
+				<input type="radio" name="gender" value="female">female
+				<input type="radio" name="gender" value="other">other
+				<br><br>
+
+
+				<label>sports</label>
+				<input type="checkbox" name="sports" value="cricket">cricket
+				<input type="checkbox" name="sports" value="football">football
+				<input type="checkbox" name="sports" value="vollyball">vollyball
+				<br><br> 
+				hobbies: 
+				<input type="checkbox" name="hobbies[]" value="">playing
+				<input type="checkbox" name="hobbies[]" value="">dancing
+				<input type="checkbox" name="hobbies[]" value="">singing
+				<input type="checkbox" name="hobbies[]" value="">walking
+				<br><br>
+				<label>pdf</label>
+				<input type="file" name="file">
+				<br><br>
+				images: 
+				<input type="file" name="images"/>
+				<br><br>
+				<br><br>
+				<label>color: </label>
+				<input type="color" name="color"><br><br>
+				<label>Email: </label>
+				<input type="email" name="email"><br><br>
+				<label>age: </label>
+				<input type="number" name="age"><br><br>
+				<label>secret: </label>
+				<input type="hidden" name="secret">
+
+				<br><br>
+				<label>date: </label>
+				<input type="date" name="date">
+				<br><br>
+				<label>month: </label>
+				<input type="month" name="month">
+				<br><br>
+				<label>date time:</label>
+				<input type="datetime-local" name="">
+				<br><br>
+				time:
+				<input type="time" name="time"><br><br>
+				range: <input type="range" name="range"><br><br>
+
+				<label>mobile number: </label>
+				<input type="number" name="mobile number" placeholder="7667845540">
+				<br><br>
+				<label>url: </label>
+				<input type="url" name="url">
+				<br><br>
+				<label>week: </label>
+				<input type="week" name="week">
+				<br><br>
+				<label>search: </label>
+			     <input type="search" name="search">
+
+			     <br><br>
+			     <label>contect number: </label>
+			     <input type="contect number" name="contect number" pattern="[0-9]{3}-[0-9]{3}-[0-4]{4}" placeholder="format: 123-123-1234">
+			     <br><br>
+
+				<input type="reset" name="reset">
+
+				<!-- input type="submit" name="submit" -->
+				<input type="image" alt="submit" src="images/web devlopment image.jpg" height="20" width="50">
+
+			</fieldset>
+			
+		</form>
+		<form>
+			<fieldset>
+				<legend>html 5 attributes</legend>
+				name: <input type="text" name="name" required="" placeholder="enter your name" autofocus="" ><br><br>
+				number: <input type="number" name="number"><br><br>
+				date: <input type="date" name="date"><br><br>
+				color: <input type="color" name="color"><br><br>
+				<input type="submit" name="submit"><br><br>
+
+			</fieldset>
+		</form>
+	
+	</body>
+	</html>
